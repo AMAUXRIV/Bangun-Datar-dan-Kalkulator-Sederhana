@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>BANGUN DATAR</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top ">
+        <div class="container text">
+
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Pemrogaman Web</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="text-center" style="height:770px; position: relative; padding-top: 10%;">
+        <div class="container">
+            <div class="card-group row-cols-lg-4">
+                <div class="card ">
+                    <img src="https://cilacapklik.com/wp-content/uploads/2021/09/Rumus-Luas-Persegi-Panjang.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Persegi Panjang</h5>
+                        <a class="btn btn-primary" href="persegi.php" role="button">Lihat</a>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1541913299-273fd84d10c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Q0lSQ0xFfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lingkaran</h5>
+                        <a class="btn btn-primary" href="lingkaran.php" role="button">Lihat</a>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Segitiga Sama Kaki</h5>
+                        <a class="btn btn-primary" href="segitiga.php" role="button">Lihat</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card text-center">
+            <div class="card-header">
+                <HR>
+                </HR>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Kalkulator Sederhana</h5>
+
+                <a href="kalkulator.php" class="btn btn-primary" style="margin-top: 2%;">Lihat</a>
+            </div>
+    </section>
+    <!-- akhir jumbotron -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
